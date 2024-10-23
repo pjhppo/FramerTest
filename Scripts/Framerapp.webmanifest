@@ -6,6 +6,6 @@
     "scope": "https://fullscreen-prototype.framer.website",
     "display": "fullscreen",
     "orientation": "any",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff"
+    "theme_color": "#ffc8d2",
+    "background_color": "#006970"
 }
