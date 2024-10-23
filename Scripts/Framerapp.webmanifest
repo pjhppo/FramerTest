@@ -1,0 +1,11 @@
+{
+    "name": "Framer Fullscreen Prototype",
+    "short_name": "Framer",
+    "description": "A fullscreen Framer prototype as PWA",
+    "start_url": "https://fullscreen-prototype.framer.website",
+    "scope": "https://fullscreen-prototype.framer.website",
+    "display": "fullscreen",
+    "orientation": "any",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+}
