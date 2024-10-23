@@ -51,3 +51,16 @@
         )
     }
 }```
+
+3. 이제 프레이머 프로젝트 파일을 저장하고 업데이트 또는 퍼블리시를 합니다.
+
+4. 모바일에서 웹링크를 사파리로 열고, 하단 내보내기 버튼 > 홈 화면에 추가 버튼을 누릅니다.
+
+5. 홈화면에 추가된 앱 아이콘을 누르면 프레이머 페이지가 전체 화면을 변경되는것을 볼수 있습니다.
+
+
+### 추가사항
+
+#### status bar 칼라 변경 법
+1. 상단의 코드에서 metaThemeColor.setAttribute("content", "#ffffff") 부분의 칼라를 변경합니다. 
+2. metaAppleStatusBar.setAttribute("content", "black-translucent") 부분을 metaAppleStatusBar.setAttribute("content", "default")로 변경합니다.
