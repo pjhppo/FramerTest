@@ -1,6 +1,6 @@
 # Framer Full screen 사용법
 
-1. Code Override의 Edit Code를 눌러 코드 편집 모드로 들어갑니다.
+1. Code Override의 Edit Code를 눌러 코드 편집 모드로 들어갑니다. 또는 새로운 Overrides를 추가합니다.
 
 
 <img src="https://github.com/pjhppo/FramerTest/blob/main/Images/Guide.png" alt="가이드 이미지1" width="262" height="182">
@@ -8,7 +8,7 @@
 2. 코드 편집 모드에서 가장 하단에 다음 코드를 붙여넣기 합니다.
 
 ```
-export function asPWA(Component): ComponentType {
+export function removeAddress(Component): ComponentType {
     return (props) => {
         // 테마 색상 설정
         const metaThemeColor = document.createElement("meta")
@@ -54,11 +54,15 @@ export function asPWA(Component): ComponentType {
 }
 ```
 
-3. 이제 프레이머 프로젝트 파일을 저장하고 업데이트 또는 퍼블리시를 합니다.
+<img src="https://github.com/pjhppo/FramerTest/blob/main/Images/Guide.png" alt="가이드 이미지1" width="262" height="182">
 
-4. 모바일에서 웹링크를 사파리로 열고, 하단 내보내기 버튼 > 홈 화면에 추가 버튼을 누릅니다.
+3. Code Overrides > File에 새로 추가된 스크립트를 선택합니다. 그리고 Override 항목에 removeAddress를 선택합니다.
 
-5. 홈화면에 추가된 앱 아이콘을 누르면 프레이머 페이지가 전체 화면을 변경되는것을 볼수 있습니다.
+4. 이제 프레이머 프로젝트 파일을 저장하고 업데이트 또는 퍼블리시를 합니다.
+
+5. 모바일에서 웹링크를 사파리로 열고, 하단 내보내기 버튼 > 홈 화면에 추가 버튼을 누릅니다.
+
+6. 홈화면에 추가된 앱 아이콘을 누르면 프레이머 페이지가 전체 화면을 변경되는것을 볼수 있습니다.
 
 
 ### 추가사항
