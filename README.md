@@ -7,7 +7,8 @@
 
 2. 코드 편집 모드에서 가장 하단에 다음 코드를 붙여넣기 합니다.
 
-```export function asPWA(Component): ComponentType {
+```
+export function asPWA(Component): ComponentType {
     return (props) => {
         // 테마 색상 설정
         const metaThemeColor = document.createElement("meta")
